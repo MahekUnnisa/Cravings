@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Test</title>
 </head>
-<body class="bg-zinc-900 text-gray-200">
+<body class="bg-[url('../static/Shop/images/tests/Background.jpg')] text-gray-200">
     <nav class="mx-48 pt-0 flex justify-between text-amber-200 items-start text-sm">
         <img src = "{% static 'Shop\images\logo-dark.png' %}" class="h-36 w-36 relative -mt-8" alt="">
         <ul class="my-6 flex justify-between items-start">
@@ -27,9 +27,10 @@
     </nav>
     <!-- Hero section -->
         <!-- Hero Image -->
-        <div class="flex justify-between items-center">
-            <span class="ml-20 text-5xl text-white font-bold w-50 text-left">Fresh and healthy Special Dishes</span>
-            <img class="h-80 w-100" src="{% static 'Shop/images/tests/test3.png'%}" alt="">
+        <div class="flex -mt-20 justify-between items-center">
+            <span class=" ml-20 text-5xl text-white font-bold w-50 text-left">Fresh and healthy Special Dishes</span>
+            <img  class="object-contain" src="{% static 'Shop/images/tests/paneer tikka.png'%}" alt="">
+            
         </div>
         
     </section>
