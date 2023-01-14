@@ -4,7 +4,23 @@ Ice cream website
 - [X] Navbar layout
 - [X] bg-color
 - [X] logo
-- [ ] navbar hover
-- [ ] Hero section
-- [ ] hero button
+- [X] navbar hover
+- [X] Hero section
+- [X] hero button
 - [X] Images
+- [X] Homepage
+- [ ] About page
+- [ ] Our specialities section
+- [ ] Contact page
+- [ ] Recepies page
+- [ ] Menu page
+- [ ] Add dropdown to menu option
+- [ ] Register and Signup pages or Modals
+## Task: Backend
+- [ ] Create models
+- [ ] Urls
+- [ ] Views
+- [ ] Authentication django admin
+- [ ] Fetch Recepies from API
+- [ ] Menu page logic
+- [ ]
