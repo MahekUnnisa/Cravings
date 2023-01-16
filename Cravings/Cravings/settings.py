@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # Custom apps
     'Shop.apps.ShopConfig',
     'django_browser_reload',
+    # Rest APIs
+    'rest_framework'
 
 
 ]

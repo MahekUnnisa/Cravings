@@ -25,3 +25,7 @@ def signup(request):
     
 def test(request):
     return render(request, 'test.html')
+
+def logout(request):
+    return render(request, 'logout.html')
+
