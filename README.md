@@ -9,13 +9,12 @@ Ice cream website
 - [X] hero button
 - [X] Images
 - [X] Homepage
-- [ ] About page
-- [ ] Our specialities section
-- [ ] Contact page
-- [ ] Recepies page
+- [X] About page
+- [X] Our specialities section
+- [X] Contact page
 - [ ] Menu page
 - [ ] Add dropdown to menu option
-- [ ] Register and Signup pages or Modals
+- [X] Register and Signup pages or Modals
 ## Task: Backend
 - [ ] Create models
 - [ ] Urls
@@ -23,4 +22,3 @@ Ice cream website
 - [ ] Authentication django admin
 - [ ] Fetch Recepies from API
 - [ ] Menu page logic
-- [ ]
