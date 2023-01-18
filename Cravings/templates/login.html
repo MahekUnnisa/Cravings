@@ -1,36 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% load static %}
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@300;500&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Login | Cravings</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Login{% endblock %}
+{% block body %}
 <div class="flex h-screen w-full items-center justify-center  bg-cover bg-no-repeat bg-[url('../static/Shop/images/tests/newbg.png')]">
-    <div class="rounded-xl bg-zinc-800 px-16  bg-opacity-75 py-10 shadow-lg backdrop-blur-md max-sm:px-8">
-      <div class="text-white -mt-10">
-        <div class="mb-2 flex flex-col items-center">
-          <img src="{% static 'Shop/images/logo-dark.png'%}" class="w-44" alt="" srcset="" />
-          <span class="text-white">Enter Login Details</span>
-        </div>
-        <form action="#">
-          <div class="mb-4 text-lg">
-            <input class="rounded-3xl border-none bg-white bg-opacity-75 px-6 py-2 text-center text-black placeholder-slate-700 shadow-lg outline-none backdrop-blur-md" type="text" name="name" placeholder="id@email.com" />
-          </div>
-  
-          <div class="mb-4 text-lg">
-            <input class="rounded-3xl border-none bg-white bg-opacity-75 px-6 py-2 text-center text-black placeholder-slate-700 shadow-lg outline-none backdrop-blur-md" type="Password" name="name" placeholder="*********" />
-          </div>
-          <div class="mt-8 flex justify-center text-lg text-black">
-            <button type="submit" class="rounded-3xl bg-amber-200 bg-opacity-100 px-10 py-2 text-black shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-red-400">Login</button>
-          </div>
-        </form>
+  <div class="rounded-xl bg-zinc-800 px-16  bg-opacity-75 py-10 shadow-lg backdrop-blur-md max-sm:px-8">
+    <div class="text-white -mt-10">
+      <div class="mb-2 flex flex-col items-center">
+        <img src="{% static 'Shop/images/logo-dark.png'%}" class="w-44" alt="" srcset="" />
+        <span class="text-white">Enter Login Details</span>
       </div>
+      <form action="#">
+        <div class="mb-4 text-lg">
+          <input class="rounded-3xl border-none bg-white bg-opacity-75 px-6 py-2 text-center text-black placeholder-slate-700 shadow-lg outline-none backdrop-blur-md" type="text" name="name" placeholder="id@email.com" />
+        </div>
+
+        <div class="mb-4 text-lg">
+          <input class="rounded-3xl border-none bg-white bg-opacity-75 px-6 py-2 text-center text-black placeholder-slate-700 shadow-lg outline-none backdrop-blur-md" type="Password" name="name" placeholder="*********" />
+        </div>
+        <div class="mt-8 flex justify-center text-lg text-black">
+          <button type="submit" class="rounded-3xl bg-amber-200 bg-opacity-100 px-10 py-2 text-black shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-red-400">Login</button>
+        </div>
+      </form>
     </div>
   </div>
-</body>
-</html>
+</div>
+{% endblock %}
