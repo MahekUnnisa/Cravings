@@ -15,6 +15,7 @@ Ice cream website
 - [ ] Menu page
 - [ ] Add dropdown to menu option
 - [X] Register and Signup pages or Modals
+
 ## Task: Backend
 - [ ] Create models
 - [ ] Urls
