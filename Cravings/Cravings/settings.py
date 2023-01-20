@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'Cravings.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'pbhaBxs2vtiT3lRuF8hT',
+        'HOST': 'containers-us-west-188.railway.app',
+        'PORT': '7361',
     }
 }
 
