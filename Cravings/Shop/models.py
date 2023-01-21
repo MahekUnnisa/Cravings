@@ -4,22 +4,22 @@ class User(models.Model):
     firstName = models.CharField(max_length=15)
     lastName = models.CharField(max_length=15)
     email = models.EmailField(null=True, blank=True)
-    phone = models.CharField(max_length=70, blank=True)
+    phone = models.CharField(max_length=255, blank=True)
 
     def __str__(self):
         return self.firstName+" "+self.lastName
 
-# class Restaurant(models.Model):
-#     name = models.CharField(max_length=255)
-#     address = models.CharField(max_length=255)
-#     phone_number = models.CharField(max_length=255)
-#     email = models.EmailField()
-#     cuisine = models.CharField(max_length=255)
-#     image = models.ImageField(upload_to='restaurant_images/', blank=True)
-#     description = models.TextField()
-#     is_open = models.BooleanField(default=True)
-#     created_at = models.DateTimeField(auto_now_add=True)
-#     updated_at = models.DateTimeField(auto_now=True)
+class Restaurant(models.Model):
+    name = models.CharField(max_length=255)
+    address = models.CharField(max_length=255)
+    phone_number = models.CharField(max_length=255)
+    email = models.EmailField()
+    cuisine = models.CharField(max_length=255)
+    image = models.ImageField(upload_to='restaurant_images/', blank=True)
+    description = models.TextField()
+    is_open = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
 # class MenuItem(models.Model):
 #     restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
