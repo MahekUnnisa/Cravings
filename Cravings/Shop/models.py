@@ -4,6 +4,7 @@ class User(models.Model):
     firstName = models.CharField(max_length=15)
     lastName = models.CharField(max_length=15)
     email = models.EmailField(null=True, blank=True)
+    phone = models.CharField(max_length=70, blank=True)
 
     def __str__(self):
         return self.firstName+" "+self.lastName
