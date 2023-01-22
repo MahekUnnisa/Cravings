@@ -14,7 +14,6 @@ This is my code repository for my latest project. It is a real time food deliver
 - [X] Contact page
 - [X] Register and Signup pages or Modals
 - [ ] Menu page
-
 ## Task: Backend
 - [X] Create models
 - [X] Urls
