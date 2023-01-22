@@ -16,9 +16,9 @@ This is my code repository for my latest project. It is a real time food deliver
 - [ ] Menu page
 
 ## Task: Backend
-- [ ] Create models
-- [ ] Urls
-- [ ] Views
+- [X] Create models
+- [X] Urls
+- [X] Views
 - [ ] Authentication django admin
 - [ ] Fetch Recepies from API
 - [ ] Menu page logic
